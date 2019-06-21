@@ -1,0 +1,173 @@
+.header {
+    background: url(../img/background.jpg) center no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+    
+    
+}
+
+
+.portfolio {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Marck Script', cursive;
+    color: #ffff99;
+    
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 15px 10px 0;
+    border: 2px solid #fff;
+
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-weight: 500;
+    max-width: 350px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.my_name {
+    margin: auto 0;
+}
+
+
+
+/*Ссылки*/
+.links {
+    font-weight: 300;
+}
+
+.link {
+    margin-left: 10px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.link:hover {
+    color: #ffff99;
+    text-decoration: none;
+}
+
+/* Резюме*/
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: auto 0;
+    
+}
+
+
+.download {
+    margin: 10px auto;
+    width: 160px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    
+}
+.download:hover {
+    text-decoration: none;
+    color: #ffff99;
+    border-color: #ffff99;
+    
+}
+
+
+.section {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    
+}
+
+/* Проекты*/
+.title h1{
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.site-link {
+    text-align: center;
+}
+.img {
+    
+    box-shadow: -2px 0 14px rgba(0,0,0,0.5);
+    width: 200px;
+    height: 300px;
+    min-height: 300px;
+    max-height: 400px;
+    margin-bottom: 15px;
+    transition: transform .5s, box-shadow .5s;
+}
+.img:hover {
+    box-shadow: -2px 0 35px rgba(0,0,0,0.6);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    
+    
+}
+
+.description {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #222;
+
+
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: #222
+    
+}
+
+/* Футер*/
+.footer {
+    background: url('../img/footer.jpg') center no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 50px;
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.foot-info {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foot-info span {
+    
+    font-size: 14px;
+}
+
+
+
